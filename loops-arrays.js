@@ -50,6 +50,8 @@ for(let i = 0; i < cities.length; i++) {
 // create a list numbers of your choice
 const numbers = [3,1,2,5,4,8,6,8];
 
+// if the number is divisable by 2 print it is an even number
+// else print it is an odd number
 for(let i = 0; i < numbers.length; i++) {
     // console.log(numbers[i])
     if(numbers[i] % 2 === 0) {
@@ -60,8 +62,7 @@ for(let i = 0; i < numbers.length; i++) {
 }
 
 console.log(3 % 2 === 0);
-// if the number is divisable by 2 print it is an even number
-// else print it is an odd number
+
 
 // while loops
 // e.g. loop 5 times each time incrementing
